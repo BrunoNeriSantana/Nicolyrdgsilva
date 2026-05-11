@@ -21,6 +21,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
+  overflow-x: clip;
   scroll-behavior: smooth;
 }
 
@@ -143,6 +144,7 @@ a {
   display: grid;
   place-items: center;
   padding-top: 120px;
+  overflow-x: clip;
 }
 
 .hero::before {
@@ -180,7 +182,7 @@ a {
 
 .hero-content {
   position: relative;
-  width: min(820px, 92vw);
+  width: min(820px, 100%);
   z-index: 2;
 }
 
